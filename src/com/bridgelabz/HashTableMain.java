@@ -20,6 +20,13 @@ public class HashTableMain {
             }
             hashTable.add(word,value);
         }
+
+        hashTable.print();
+        System.out.println();
+
+        hashTable.remove("avoidable");
+        System.out.println("\n\n");
         hashTable.print();
     }
 }
+
